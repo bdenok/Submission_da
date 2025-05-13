@@ -1,0 +1,151 @@
+** Drc report for Final.kicad_pcb **
+** Created on 2025-05-12T16:32:57-0700 **
+
+** Found 38 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+[track_dangling]: Track has unconnected end
+    Local override; warning
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1950 mm)
+    Rule: netclass 'Default'; error
+    @(218.3433 mm, 94.1300 mm): Pad 1 on F.Cu
+    @(219.0083 mm, 93.9650 mm): Pad 14 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(218.3433 mm, 94.1300 mm): Pad 1 on F.Cu
+    @(218.3433 mm, 94.6300 mm): Pad 2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(218.3433 mm, 94.6300 mm): Pad 2 on F.Cu
+    @(218.3433 mm, 95.1300 mm): Pad 3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(218.3433 mm, 95.1300 mm): Pad 3 on F.Cu
+    @(218.3433 mm, 95.6300 mm): Pad 4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1950 mm)
+    Rule: netclass 'Default'; error
+    @(218.3433 mm, 95.6300 mm): Pad 4 on F.Cu
+    @(219.0083 mm, 95.7950 mm): Pad 5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(219.0083 mm, 95.7950 mm): Pad 5 on F.Cu
+    @(219.5083 mm, 95.7950 mm): Pad 6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1950 mm)
+    Rule: netclass 'Default'; error
+    @(220.0083 mm, 95.7950 mm): Pad 7 on F.Cu
+    @(220.6733 mm, 95.6300 mm): Pad 8 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.6733 mm, 95.6300 mm): Pad 8 on F.Cu
+    @(220.6733 mm, 95.1300 mm): Pad 9 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.6733 mm, 95.1300 mm): Pad 9 on F.Cu
+    @(220.6733 mm, 94.6300 mm): Pad 10 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.6733 mm, 94.6300 mm): Pad 10 on F.Cu
+    @(220.6733 mm, 94.1300 mm): Pad 11 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1950 mm)
+    Rule: netclass 'Default'; error
+    @(220.6733 mm, 94.1300 mm): Pad 11 on F.Cu
+    @(220.0083 mm, 93.9650 mm): Pad 12 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(220.0083 mm, 93.9650 mm): Pad 12 on F.Cu
+    @(219.5083 mm, 93.9650 mm): Pad 13 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(219.5083 mm, 93.9650 mm): Pad 13 on F.Cu
+    @(219.0083 mm, 93.9650 mm): Pad 14 on F.Cu
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(214.5213 mm, 93.0410 mm): Reference field of R1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(214.5213 mm, 95.6130 mm): Reference field of R2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(214.5213 mm, 100.7570 mm): Reference field of R4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6400 mm)
+    Rule: board setup constraints silk text height; warning
+    @(219.5403 mm, 92.9736 mm): Reference field of U1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.3937 mm)
+    Rule: board setup constraints silk text height; warning
+    @(214.5213 mm, 98.1850 mm): Reference field of R3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(226.2246 mm, 92.5819 mm): Reference field of D1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(226.3263 mm, 79.2470 mm): Reference field of U4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.3433 mm, 94.1300 mm): Pad 1 on F.Cu
+    @(218.3433 mm, 94.6300 mm): Pad 2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.3433 mm, 94.1300 mm): Pad 1 on F.Cu
+    @(219.0083 mm, 93.9650 mm): Pad 14 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.3433 mm, 94.6300 mm): Pad 2 on F.Cu
+    @(218.3433 mm, 95.1300 mm): Pad 3 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.3433 mm, 95.1300 mm): Pad 3 on F.Cu
+    @(218.3433 mm, 95.6300 mm): Pad 4 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(218.3433 mm, 95.6300 mm): Pad 4 on F.Cu
+    @(219.0083 mm, 95.7950 mm): Pad 5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(219.0083 mm, 95.7950 mm): Pad 5 on F.Cu
+    @(219.5083 mm, 95.7950 mm): Pad 6 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.0083 mm, 95.7950 mm): Pad 7 on F.Cu
+    @(220.6733 mm, 95.6300 mm): Pad 8 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.6733 mm, 95.6300 mm): Pad 8 on F.Cu
+    @(220.6733 mm, 95.1300 mm): Pad 9 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.6733 mm, 95.1300 mm): Pad 9 on F.Cu
+    @(220.6733 mm, 94.6300 mm): Pad 10 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.6733 mm, 94.6300 mm): Pad 10 on F.Cu
+    @(220.6733 mm, 94.1300 mm): Pad 11 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.6733 mm, 94.1300 mm): Pad 11 on F.Cu
+    @(220.0083 mm, 93.9650 mm): Pad 12 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(220.0083 mm, 93.9650 mm): Pad 12 on F.Cu
+    @(219.5083 mm, 93.9650 mm): Pad 13 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(219.5083 mm, 93.9650 mm): Pad 13 on F.Cu
+    @(219.0083 mm, 93.9650 mm): Pad 14 on F.Cu
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(196.2801 mm, 81.5100 mm): Reference field of U2
+    @(227.1533 mm, 80.9250 mm): Segment on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(227.1533 mm, 47.2250 mm): Segment on F.Silkscreen
+    @(226.3263 mm, 79.2470 mm): Reference field of U4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(222.9986 mm, 92.2788 mm): Segment on F.Silkscreen
+    @(226.2246 mm, 92.5819 mm): Reference field of D1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
